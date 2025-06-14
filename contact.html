@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Jason Fitness Center</title>
+    </head>
+
+    <body>
+        <!-- navigation bar  -->
+        <nav>
+            <div>
+                <div>JasonFit</div>
+                <ul>
+                    <li><a href="index.html" >Home</a></li>
+                    <li><a href="classes.html">Classes</a></li>
+                    <li><a href="trainers.html">Trainers</a></li>
+                    <li><a href="membership.html">Membership</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+
+<div id="contact">
+        <div>
+            <h2>Get In Touch</h2>
+            <p >Ready to start your fitness journey? We'd love to hear from you!</p>
+        </div>
+        
+        <div class="contact-container">
+            <div class="contact-form">
+                <h3>Send Us a Message</h3>
+                <form id="contactForm">
+                    <div>
+                        <div >
+                            <label for="firstName">First Name *</label>
+                            <input type="text" id="firstName" name="firstName" required>
+                        </div>
+                        <div >
+                            <label for="lastName">Last Name *</label>
+                            <input type="text" id="lastName" name="lastName" required>
+                        </div>
+                    </div>
+                    
+                    <div>
+                        <div >
+                            <label for="email">Email Address *</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div >
+                            <label for="phone">Phone Number</label>
+                            <input type="tel" id="phone" name="phone">
+                        </div>
+                    </div>
+                    
+                    <div >
+                        <label>I'm Interested In *</label>
+                        <div style="margin-top: 8px;">
+                            <div style="margin-bottom: 8px;">
+                                <input type="radio" id="interest-membership" name="interest" value="membership" required>
+                                <label for="interest-membership" style="display: inline; margin-left: 8px;">Membership Information</label>
+                            </div>
+                            <div style="margin-bottom: 8px;">
+                                <input type="radio" id="interest-personal" name="interest" value="personal-training">
+                                <label for="interest-personal" style="display: inline; margin-left: 8px;">Personal Training</label>
+                            </div>
+                            <div style="margin-bottom: 8px;">
+                                <input type="radio" id="interest-group" name="interest" value="group-classes">
+                                <label for="interest-group" style="display: inline; margin-left: 8px;">Group Classes</label>
+                            </div>
+                            <div style="margin-bottom: 8px;">
+                                <input type="radio" id="interest-other" name="interest" value="other">
+                                <label for="interest-other" style="display: inline; margin-left: 8px;">Other</label>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div >
+                        <label for="experience">Fitness Experience Level</label>
+                        <select id="experience" name="experience">
+                            <option value="">Please select...</option>
+                            <option value="beginner">Beginner</option>
+                            <option value="intermediate">Intermediate</option>
+                            <option value="advanced">Advanced</option>
+                            <option value="returning">Returning to fitness</option>
+                        </select>
+                    </div>
+                    
+                    <div >
+                        <label for="goals">Fitness Goals</label>
+                        <textarea id="goals" name="goals" placeholder="Tell us about your fitness goals, any questions you have, or how we can help you..."></textarea>
+                    </div>
+                    
+                    <div >
+                        <label>
+                            <input type="checkbox" id="newsletter" name="newsletter" style="width: auto; margin-right: 0.5rem;">
+                            I'd like to receive fitness tips and updates from FitLife
+                        </label>
+                    </div>
+                    
+                    <button type="submit" class="submit-btn">Send Message</button>
+                </form>
+            </div>
+            
+            <div >
+                <div >
+                    <h4>Location</h4>
+                    <p><strong>FitLife Wellness Center</strong></p>
+                    <p>123 Fitness Avenue</p>
+                    <p>Wellness City, WC 12345</p>
+                </div>
+                
+                <div >
+                    <h4>Contact Info</h4>
+                    <p><strong>Phone:</strong> (555) 123-4567</p>
+                    <p><strong>Email:</strong> info@fitlifecenter.com</p>
+                    <p><strong>Emergency:</strong> (555) 123-4568</p>
+                </div>
+                
+                <div >
+                    <h4>Hours of Operation</h4>
+                    <div class="hours-grid">
+                        <div class="hours-item">
+                            Monday - Friday
+                            5:00 AM - 11:00 PM
+                        </div>
+                        <div class="hours-item">
+                            Saturday
+                            6:00 AM - 10:00 PM
+                        </div>
+                        <div class="hours-item">
+                            Sunday
+                            7:00 AM - 9:00 PM
+                        </div>
+                        <div class="hours-item">
+                            Holidays
+                            8:00 AM - 6:00 PM
+                        </div>
+                    </div>
+                </div>
+                
+                <div>
+                    Interactive Map Coming Soon
+                    <br>
+                    <small>Located in the heart of Wellness District</small>
+                </div>
+                
+            </div>
+        </div>
+
+        
+    <footer>
+        <div>
+            <div>
+                <a href="contact.html">Contact Us</a>
+                <a href="#">Hours & Location</a>
+                <a href="#">Careers</a>
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms of Service</a>
+            </div>
+            <p>&copy; 2025 JasonFit Wellness Center. All rights reserved.</p>
+            <p>📍 123 Fitness Avenue, Wellness City | 📞 (555) 123-4567 | ✉️ info@fitlifecenter.com</p>
+        </div>
+    </footer>
+    </body>
+</html>
