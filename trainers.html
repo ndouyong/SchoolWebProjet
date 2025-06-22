@@ -3,123 +3,116 @@
 
     <head>
         <title>Jason Fitness Center</title>
+        <link rel="stylesheet" href="style.css">
     </head>
 
     <body>
-        <!-- navigation bar  -->
+<!-- navigation bar  -->
         <nav>
-            <div>
-                <div>JasonFit</div>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="classes.html">Classes</a></li>
-                <li><a href="#">Trainers</a></li>
-                <li><a href="membership.html">Membership</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </div>
-    </nav>
-
-    <div id="trainers">
-        <div>
-            <h2>Meet Our Expert Trainers</h2>
-            <p>Work with certified professionals who are passionate about your success</p>
-
-            <div>
-                <div>
-                    <div id="trainer-image"> <img src="" alt=""></div>
-                    <div>
+            <div class="nav-container">
+                <div class="logo">JasonFit</div>
+                <ul class="nav-links" >
+                    <li><a href="index.html" >Home</a></li>
+                    <li><a href="classes.html">Classes</a></li>
+                    <li><a href="trainers.html">Trainers</a></li>
+                    <li><a href="membership.html">Membership</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </nav>  
+    <!-- TRAINERS PAGE -->
+    <div id="trainers" class="page">
+        <div class="classes-container">
+            <h2 class="section-title">Meet Our Expert Trainers</h2>
+            <p class="section-subtitle">Work with certified professionals who are passionate about your success</p>
+            
+            <div class="trainers-grid">
+                <div class="trainer-card">
+                    <div class="trainer-image"></div>
+                    <div class="trainer-info">
                         <h3>Sarah Martinez</h3>
                         <p><strong>Head Personal Trainer</strong></p>
-                        <p>10+ years experience in fitness training with specialization in HIIT and strength
-                            conditioning. Certified through NASM and ACSM.</p>
-                        <div>
-                            HIIT
-                            Strength Training
-                            Weight Loss
+                        <p>10+ years experience in fitness training with specialization in HIIT and strength conditioning. Certified through NASM and ACSM.</p>
+                        <div class="specialties">
+                            <span class="specialty-tag">HIIT</span>
+                            <span class="specialty-tag">Strength Training</span>
+                            <span class="specialty-tag">Weight Loss</span>
                         </div>
                     </div>
                 </div>
 
-                <div>
-                    <div id="trainer-image"><img src="" alt=""></div>
-                    <div>
+                <div class="trainer-card">
+                    <div class="trainer-image" style="background: linear-gradient(45deg, #27ae60, #2c3e50);"></div>
+                    <div class="trainer-info">
                         <h3>Mike Chen</h3>
                         <p><strong>Yoga & Wellness Specialist</strong></p>
-                        <p>Certified yoga instructor with 8 years of experience. Specializes in power yoga, meditation,
-                            and holistic wellness approaches.</p>
-                        <div>
-                            Yoga
-                            Meditation
-                            Flexibility
+                        <p>Certified yoga instructor with 8 years of experience. Specializes in power yoga, meditation, and holistic wellness approaches.</p>
+                        <div class="specialties">
+                            <span class="specialty-tag">Yoga</span>
+                            <span class="specialty-tag">Meditation</span>
+                            <span class="specialty-tag">Flexibility</span>
                         </div>
                     </div>
                 </div>
 
-                <div>
-                    <div id="trainer-image"><img src="" alt=""></div>
-                    <div>
+                <div class="trainer-card">
+                    <div class="trainer-image" style="background: linear-gradient(45deg, #8e44ad, #ff6b35);"></div>
+                    <div class="trainer-info">
                         <h3>Jessica Torres</h3>
                         <p><strong>Strength & Conditioning Coach</strong></p>
-                        <p>Former competitive athlete with expertise in strength training and sports performance. Helps
-                            clients build functional strength safely.</p>
-                        <div>
-                            Powerlifting
-                            Sports Performance
-                            Functional Training
+                        <p>Former competitive athlete with expertise in strength training and sports performance. Helps clients build functional strength safely.</p>
+                        <div class="specialties">
+                            <span class="specialty-tag">Powerlifting</span>
+                            <span class="specialty-tag">Sports Performance</span>
+                            <span class="specialty-tag">Functional Training</span>
                         </div>
                     </div>
                 </div>
 
-                <div>
-                    <div id="trainer-image"><img src="" alt=""></div>
-                    <div>
+                <div class="trainer-card">
+                    <div class="trainer-image" style="background: linear-gradient(45deg, #e74c3c, #2c3e50);"></div>
+                    <div class="trainer-info">
                         <h3>Alex Rivera</h3>
                         <p><strong>Group Fitness Instructor</strong></p>
-                        <p>Energetic group fitness instructor specializing in dance cardio, bootcamp classes, and making
-                            fitness fun for everyone.</p>
-                        <div>
-                            Dance Fitness
-                            Bootcamp
-                            Group Classes
+                        <p>Energetic group fitness instructor specializing in dance cardio, bootcamp classes, and making fitness fun for everyone.</p>
+                        <div class="specialties">
+                            <span class="specialty-tag">Dance Fitness</span>
+                            <span class="specialty-tag">Bootcamp</span>
+                            <span class="specialty-tag">Group Classes</span>
                         </div>
                     </div>
                 </div>
 
-                <div>
-                    <div id="trainer-image"><img src="" alt=""></div>
-                    <div>
+                <div class="trainer-card">
+                    <div class="trainer-image" style="background: linear-gradient(45deg, #3498db, #ff6b35);"></div>
+                    <div class="trainer-info">
                         <h3>Emma Thompson</h3>
                         <p><strong>Pilates & Rehabilitation Specialist</strong></p>
-                        <p>Licensed physical therapist and certified Pilates instructor. Specializes in injury
-                            prevention and corrective exercise programs.</p>
-                        <div>
-                            Pilates
-                            Rehabilitation
-                            Injury Prevention
+                        <p>Licensed physical therapist and certified Pilates instructor. Specializes in injury prevention and corrective exercise programs.</p>
+                        <div class="specialties">
+                            <span class="specialty-tag">Pilates</span>
+                            <span class="specialty-tag">Rehabilitation</span>
+                            <span class="specialty-tag">Injury Prevention</span>
                         </div>
                     </div>
                 </div>
 
-                <div>
-                    <div id="trainer-image"><img src="" alt=""></div>
-                    <div>
+                <div class="trainer-card">
+                    <div class="trainer-image" style="background: linear-gradient(45deg, #f39c12, #2c3e50);"></div>
+                    <div class="trainer-info">
                         <h3>David Kim</h3>
                         <p><strong>Cycling & Endurance Coach</strong></p>
-                        <p>Professional cycling coach with expertise in endurance training, spin classes, and
-                            cardiovascular conditioning programs.</p>
-                        <div>
-                            Cycling
-                            Endurance
-                            Cardio Training
+                        <p>Professional cycling coach with expertise in endurance training, spin classes, and cardiovascular conditioning programs.</p>
+                        <div class="specialties">
+                            <span class="specialty-tag">Cycling</span>
+                            <span class="specialty-tag">Endurance</span>
+                            <span class="specialty-tag">Cardio Training</span>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-
-
 
     <footer>
         <div>

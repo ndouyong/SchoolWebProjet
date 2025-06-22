@@ -2,99 +2,98 @@
 <html lang="en">
     <head>
         <title>Jason Fitness Center</title>
+        <link rel="stylesheet" href="style.css">
     </head>
 
     <body>
-        <!-- navigation bar  -->
+  <!-- navigation bar  -->
         <nav>
-            <div>
-                <div>JasonFit</div>
-                <ul>
+            <div class="nav-container">
+                <div class="logo">JasonFit</div>
+                <ul class="nav-links" >
                     <li><a href="index.html" >Home</a></li>
                     <li><a href="classes.html">Classes</a></li>
                     <li><a href="trainers.html">Trainers</a></li>
-                    <li><a href="#">Membership</a></li>
+                    <li><a href="membership.html">Membership</a></li>
                     <li><a href="contact.html">Contact</a></li>
                 </ul>
             </div>
-        </nav>
-
-
-    <div id="membership" >
-        <div>
-            <h2>Membership Plans</h2>
-            <p>Choose the perfect plan to start your fitness journey</p>
-            
-            <div>
-                <div>
-                    <div>
-                        <h3>Basic</h3>
-                        <div>$39/month</div>
-                        <p>Perfect for getting started</p>
+        </nav>  
+        <div id="membership" class="page">
+            <div class="classes-container">
+                <h2 class="section-title">Membership Plans</h2>
+                <p class="section-subtitle">Choose the perfect plan to start your fitness journey</p>
+                
+                <div class="membership-plans">
+                    <div class="plan-card">
+                        <div class="plan-header">
+                            <h3>Basic</h3>
+                            <div class="plan-price">$39<span style="font-size: 1rem;">/month</span></div>
+                            <p>Perfect for getting started</p>
+                        </div>
+                        <div class="plan-features">
+                            <ul>
+                                <li>Access to cardio and strength equipment</li>
+                                <li>Locker room facilities</li>
+                                <li>Basic fitness assessment</li>
+                                <li>Mobile app access</li>
+                                <li>Free guest pass (1 per month)</li>
+                            </ul>
+                            <button class="cta-button" style="width: 100%; margin-top: 2rem;">Get Started</button>
+                        </div>
                     </div>
-                    <div>
-                        <ul>
-                            <li>Access to cardio and strength equipment</li>
-                            <li>Locker room facilities</li>
-                            <li>Basic fitness assessment</li>
-                            <li>Mobile app access</li>
-                            <li>Free guest pass (1 per month)</li>
-                        </ul>
-                        <button>Get Started</button>
+    
+                    <div class="plan-card featured">
+                        <div class="plan-header">
+                            <h3>Premium</h3>
+                            <div class="plan-price">$69<span style="font-size: 1rem;">/month</span></div>
+                            <p>Most Popular Choice</p>
+                        </div>
+                        <div class="plan-features">
+                            <ul>
+                                <li>Everything in Basic plan</li>
+                                <li>Unlimited group fitness classes</li>
+                                <li>2 personal training sessions/month</li>
+                                <li>Nutrition consultation</li>
+                                <li>Priority booking for classes</li>
+                                <li>Sauna and recovery amenities</li>
+                                <li>Guest passes (4 per month)</li>
+                            </ul>
+                            <button class="cta-button" style="width: 100%; margin-top: 2rem;">Choose Premium</button>
+                        </div>
+                    </div>
+    
+                    <div class="plan-card">
+                        <div class="plan-header">
+                            <h3>Elite</h3>
+                            <div class="plan-price">$99<span style="font-size: 1rem;">/month</span></div>
+                            <p>Ultimate fitness experience</p>
+                        </div>
+                        <div class="plan-features">
+                            <ul>
+                                <li>Everything in Premium plan</li>
+                                <li>Unlimited personal training</li>
+                                <li>Monthly massage therapy session</li>
+                                <li>Customized meal planning</li>
+                                <li>24/7 gym access</li>
+                                <li>VIP locker with towel service</li>
+                                <li>Unlimited guest passes</li>
+                                <li>Access to exclusive workshops</li>
+                            </ul>
+                            <button class="cta-button" style="width: 100%; margin-top: 2rem;">Go Elite</button>
+                        </div>
                     </div>
                 </div>
-
-                <div>
-                    <div>
-                        <h3>Premium</h3>
-                        <div>$69/month</div>
-                        <p>Most Popular Choice</p>
-                    </div>
-                    <div>
-                        <ul>
-                            <li>Everything in Basic plan</li>
-                            <li>Unlimited group fitness classes</li>
-                            <li>2 personal training sessions/month</li>
-                            <li>Nutrition consultation</li>
-                            <li>Priority booking for classes</li>
-                            <li>Sauna and recovery amenities</li>
-                            <li>Guest passes (4 per month)</li>
-                        </ul>
-                        <button>Choose Premium</button>
-                    </div>
+    
+                <div style="text-align: center; margin-top: 3rem; padding: 2rem; background: #f8f9fa; border-radius: 15px;">
+                    <h3>Special Offers</h3>
+                    <p style="margin: 1rem 0;">🎉 New Member Special: Get your first month for just $19 on any plan!</p>
+                    <p style="margin: 1rem 0;">👨‍👩‍👧‍👦 Family Discount: Save 20% when you sign up 3+ family members</p>
+                    <p style="margin: 1rem 0;">🎓 Student Discount: 15% off with valid student ID</p>
+                    <button class="cta-button" style="margin-top: 1rem;">Claim Your Offer</button>
                 </div>
-
-                <div>
-                    <div>
-                        <h3>Elite</h3>
-                        <div>$99/month</div>
-                        <p>Ultimate fitness experience</p>
-                    </div>
-                    <div>
-                        <ul>
-                            <li>Everything in Premium plan</li>
-                            <li>Unlimited personal training</li>
-                            <li>Monthly massage therapy session</li>
-                            <li>Customized meal planning</li>
-                            <li>24/7 gym access</li>
-                            <li>VIP locker with towel service</li>
-                            <li>Unlimited guest passes</li>
-                            <li>Access to exclusive workshops</li>
-                        </ul>
-                        <button>Go Elite</button>
-                    </div>
-                </div>
-            </div>
-
-            <div>
-                <h3>Special Offers</h3>
-                <p>New Member Special: Get your first month for just $19 on any plan!</p>
-                <p>Family Discount: Save 20% when you sign up 3+ family members</p>
-                <p>Student Discount: 15% off with valid student ID</p>
-                <button>Claim Your Offer</button>
             </div>
         </div>
-    </div>
 
         
     <footer>
