@@ -1,113 +1,119 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>Jason Fitness Center</title>
-    </head>
 
-    <body>
-        <!-- navigation bar  -->
-        <nav>
-            <div>
-                <div>JasonFit</div>
-                <ul>
-                    <li><a href="index.html" >Home</a></li>
-                    <li><a href="#">Classes</a></li>
-                    <li><a href="trainers.html">Trainers</a></li>
-                    <li><a href="membership.html">Membership</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                </ul>
-            </div>
-        </nav>
+<head>
+    <title>Jason Fitness Center</title>
+    <link rel="stylesheet" href="style.css">
+</head>
 
+<body>
+    <!-- navigation bar  -->
+    <nav>
+        <div class="nav-container">
+            <div class="logo">JasonFit</div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="classes.html">Classes</a></li>
+                <li><a href="trainers.html">Trainers</a></li>
+                <li><a href="membership.html">Membership</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div id="classes" class="page">
+        <div class="classes-container">
+            <h2 class="section-title">Fitness Classes</h2>
+            <p class="section-subtitle">Join our energizing group classes led by expert instructors</p>
 
-    <div id="classes">
-        <div>
-            <h2>Fitness Classes</h2>
-            <p>Join our energizing group classes led by expert instructors</p>
-            
-            <div>
-                <div>
-                    <div>
+            <div class="schedule-grid">
+                <div class="class-card">
+                    <div class="class-header">
                         <h3>HIIT Blast</h3>
                         <p>High-Intensity Interval Training</p>
                     </div>
-                    <div>
-                        <p>Burn calories and build strength with our high-energy HIIT sessions. Perfect for all fitness levels with modifications available.</p>
+                    <div class="class-body">
+                        <p>Burn calories and build strength with our high-energy HIIT sessions. Perfect for all fitness
+                            levels with modifications available.</p>
                         <p><strong>Instructor:</strong> Sarah Martinez</p>
-                         Mon, Wed, Fri - 6:00 AM 
-                         Tue, Thu - 7:00 PM 
+                        <span class="class-time">Mon, Wed, Fri - 6:00 AM</span>
+                        <span class="class-time">Tue, Thu - 7:00 PM</span>
                     </div>
                 </div>
 
-                <div>
-                    <div>
+                <div class="class-card">
+                    <div class="class-header">
                         <h3>Power Yoga</h3>
                         <p>Strength & Flexibility</p>
                     </div>
-                    <div>
-                        <p>Build strength, flexibility, and mindfulness through dynamic yoga flows that challenge your body and calm your mind.</p>
+                    <div class="class-body">
+                        <p>Build strength, flexibility, and mindfulness through dynamic yoga flows that challenge your
+                            body and calm your mind.</p>
                         <p><strong>Instructor:</strong> Mike Chen</p>
-                         Daily - 8:00 AM 
-                         Mon, Wed, Fri - 6:30 PM 
+                        <span class="class-time">Daily - 8:00 AM</span>
+                        <span class="class-time">Mon, Wed, Fri - 6:30 PM</span>
                     </div>
                 </div>
 
-                <div>
-                    <div>
+                <div class="class-card">
+                    <div class="class-header">
                         <h3>Strength Training</h3>
                         <p>Build Muscle & Power</p>
                     </div>
-                    <div>
-                        <p>Develop functional strength and muscle mass with progressive resistance training using free weights and machines.</p>
+                    <div class="class-body">
+                        <p>Develop functional strength and muscle mass with progressive resistance training using free
+                            weights and machines.</p>
                         <p><strong>Instructor:</strong> Jessica Torres</p>
-                        Tue, Thu, Sat - 9:00 AM
-                        Mon, Wed - 5:30 PM
+                        <span class="class-time">Tue, Thu, Sat - 9:00 AM</span>
+                        <span class="class-time">Mon, Wed - 5:30 PM</span>
                     </div>
                 </div>
 
-                <div>
-                    <div>
+                <div class="class-card">
+                    <div class="class-header">
                         <h3>Cardio Dance</h3>
                         <p>Fun & Energetic</p>
                     </div>
-                    <div>
-                        <p>Dance your way to fitness with high-energy routines set to the latest music. Great cardio workout that doesn't feel like work!</p>
+                    <div class="class-body">
+                        <p>Dance your way to fitness with high-energy routines set to the latest music. Great cardio
+                            workout that doesn't feel like work!</p>
                         <p><strong>Instructor:</strong> Alex Rivera</p>
-                        Tue, Thu - 6:00 PM 
-                        Saturday - 10:00 AM
+                        <span class="class-time">Tue, Thu - 6:00 PM</span>
+                        <span class="class-time">Saturday - 10:00 AM</span>
                     </div>
                 </div>
 
-                <div>
-                    <div>
+                <div class="class-card">
+                    <div class="class-header">
                         <h3>Pilates Core</h3>
                         <p>Core Strength & Stability</p>
                     </div>
-                    <div>
-                        <p>Strengthen your core, improve posture, and enhance body awareness through controlled movements and breathing techniques.</p>
+                    <div class="class-body">
+                        <p>Strengthen your core, improve posture, and enhance body awareness through controlled
+                            movements and breathing techniques.</p>
                         <p><strong>Instructor:</strong> Emma Thompson</p>
-                        Mon, Wed, Fri - 12:00 PM 
-                        Sunday - 9:00 AM
+                        <span class="class-time">Mon, Wed, Fri - 12:00 PM</span>
+                        <span class="class-time">Sunday - 9:00 AM</span>
                     </div>
                 </div>
 
-                <div>
-                    <div>
+                <div class="class-card">
+                    <div class="class-header">
                         <h3>Spin Cycle</h3>
                         <p>Indoor Cycling</p>
                     </div>
-                    <div>
-                        <p>High-intensity indoor cycling with motivating music and instruction. Burn calories while having fun in our dedicated spin studio.</p>
+                    <div class="class-body">
+                        <p>High-intensity indoor cycling with motivating music and instruction. Burn calories while
+                            having fun in our dedicated spin studio.</p>
                         <p><strong>Instructor:</strong> David Kim</p>
-                        Daily - 7:00 AM 
-                        Mon, Wed, Fri - 5:00 PM
+                        <span class="class-time">Daily - 7:00 AM</span>
+                        <span class="class-time">Mon, Wed, Fri - 5:00 PM</span>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-        
-     <footer>
+
+    <footer>
         <div>
             <div>
                 <a href="contact.html">Contact Us</a>
@@ -120,5 +126,6 @@
             <p>📍 123 Fitness Avenue, Wellness City | 📞 (555) 123-4567 | ✉️ info@fitlifecenter.com</p>
         </div>
     </footer>
-    </body>
+</body>
+
 </html>

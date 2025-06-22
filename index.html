@@ -2,14 +2,15 @@
 <html lang="en">
     <head>
         <title>Jason Fitness Center</title>
+        <link rel="stylesheet" href="style.css">
     </head>
 
     <body>
         <!-- navigation bar  -->
         <nav>
-            <div>
-                <div>JasonFit</div>
-                <ul>
+            <div class="nav-container">
+                <div class="logo">JasonFit</div>
+                <ul class="nav-links" >
                     <li><a href="index.html" >Home</a></li>
                     <li><a href="classes.html">Classes</a></li>
                     <li><a href="trainers.html">Trainers</a></li>
@@ -17,37 +18,37 @@
                     <li><a href="contact.html">Contact</a></li>
                 </ul>
             </div>
-        </nav>
-
-    <div id="home">
-        <section id="hero">
-            <img src="img/image_starte.avif" alt="">
-            <div id="hero-content">
+        </nav>   
+    
+        <!-- Body of the page stating -->
+    <div id="home" class="page active">
+        <section class="hero">
+            <div class="hero-content">
                 <h1>Transform Your Life</h1>
-                <p>Join FitLife Wellness Center and discover the strongest version of yourself</p>
-                <button>Start Your Journey</button>
+                <p>Join Jason Fitness Center and discover the strongest version of yourself</p>
+                <button class="cta-button" >Start Your Journey</button>
             </div>
         </section>
 
-        <section>
-            <h2 >Why Choose FitLife?</h2>
-            <p>Experience fitness like never before with our world-class facilities and expert guidance</p>
+        <section class="features">
+            <h2 class="section-title">Why Choose FitLife?</h2>
+            <p class="section-subtitle">Experience fitness like never before with our world-class facilities and expert guidance</p>
             
-            <div>
-                <div>
-                    <div id="feature-icon">💪</div>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">💪</div>
                     <h3>Expert Training</h3>
                     <p>Work with certified personal trainers who are passionate about helping you achieve your fitness goals through personalized workout plans.</p>
                 </div>
                 
-                <div id="feature-card">
-                    <div id="feature-icon">🏋️</div>
+                <div class="feature-card">
+                    <div class="feature-icon">🏋️</div>
                     <h3>Modern Equipment</h3>
                     <p>Access state-of-the-art fitness equipment and cutting-edge technology to maximize your workout efficiency and results.</p>
                 </div>
                 
-                <div id="feature-card">
-                    <div id="feature-icon">🧘</div>
+                <div class="feature-card">
+                    <div class="feature-icon">🧘</div>
                     <h3>Wellness Focus</h3>
                     <p>Beyond fitness, we offer holistic wellness programs including yoga, meditation, and nutrition counseling for complete health.</p>
                 </div>
