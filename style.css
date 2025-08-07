@@ -72,7 +72,7 @@ nav {
     height: 90vh;
     background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)),
         linear-gradient(45deg, rgba(255, 107, 53, 0.1), rgba(44, 62, 80, 0.1)),
-        url('https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80');
+        url('img/image_starte.avif');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -137,7 +137,7 @@ nav {
     cursor: pointer;
     transition: transform 0.3s ease;
     opacity: 0;
-    animation: fadeInUp 1s ease 0.6s forwards;
+    animation: fadeInUp 1.5s ease 0.6s forwards;
 }
 
 .cta-button:hover {
@@ -478,21 +478,6 @@ nav {
     background: #ff8c42;
 }
 
-@media (max-width: 768px) {
-    .contact-container {
-        grid-template-columns: 1fr;
-        gap: 2rem;
-    }
-
-    .form-row {
-        grid-template-columns: 1fr;
-    }
-
-    .hours-grid {
-        grid-template-columns: 1fr;
-    }
-}
-
 .membership-plans {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -586,29 +571,6 @@ nav {
     }
 }
 
-/* Mobile Responsiveness */
-@media (max-width: 768px) {
-    .nav-links {
-        flex-direction: column;
-        gap: 1rem;
-    }
-
-    .hero-content h1 {
-        font-size: 2.5rem;
-    }
-
-    .features-grid,
-    .schedule-grid,
-    .facilities-grid,
-    .trainers-grid,
-    .membership-plans {
-        grid-template-columns: 1fr;
-    }
-
-    .plan-card.featured {
-        transform: none;
-    }
-}
 
 /* Footer */
 footer {
@@ -687,24 +649,28 @@ footer a:hover {
     background: white;
     padding: 2.5rem 2rem 2rem 2rem;
     border-radius: 20px;
-    box-shadow: 0 10px 30px rgba(0,0,0,0.12);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.12);
     text-align: center;
 }
+
 .login-container h1 {
     color: #2c3e50;
     margin-bottom: 2rem;
     font-size: 2rem;
 }
+
 #adminLoginForm .form-group {
     margin-bottom: 1.5rem;
     text-align: left;
 }
+
 #adminLoginForm label {
     color: #2c3e50;
     font-weight: bold;
     margin-bottom: 0.5rem;
     display: block;
 }
+
 #adminLoginForm input[type="text"],
 #adminLoginForm input[type="password"] {
     width: 100%;
@@ -715,11 +681,13 @@ footer a:hover {
     background: #fafafa;
     transition: border-color 0.3s;
 }
+
 #adminLoginForm input:focus {
     border-color: #ff6b35;
     background: white;
     outline: none;
 }
+
 #adminLoginForm button[type="submit"] {
     background: linear-gradient(45deg, #ff6b35, #ff8c42);
     color: white;
@@ -732,6 +700,7 @@ footer a:hover {
     width: 100%;
     margin-top: 1rem;
 }
+
 #adminLoginForm button[type="submit"]:hover {
     transform: translateY(-2px);
     box-shadow: 0 10px 30px rgba(255, 107, 53, 0.2);
@@ -744,19 +713,22 @@ footer a:hover {
     padding: 2rem;
     background: white;
     border-radius: 20px;
-    box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
 }
+
 .admin-dashboard h1 {
     color: #2c3e50;
     margin-bottom: 2rem;
     font-size: 2rem;
 }
-.admin-dashboard > div {
+
+.admin-dashboard>div {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-bottom: 2rem;
 }
+
 .admin-dashboard button {
     background: linear-gradient(45deg, #ff6b35, #ff8c42);
     color: white;
@@ -768,45 +740,95 @@ footer a:hover {
     transition: all 0.3s;
     margin-left: 0.5rem;
 }
+
 .admin-dashboard button:hover {
     background: linear-gradient(45deg, #ff8c42, #ff6b35);
     transform: translateY(-2px);
     box-shadow: 0 5px 15px rgba(255, 107, 53, 0.15);
 }
+
 .admin-dashboard table {
     width: 100%;
     border-collapse: collapse;
     background: #fafafa;
     border-radius: 15px;
     overflow: hidden;
-    box-shadow: 0 5px 20px rgba(0,0,0,0.05);
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
 }
-.admin-dashboard th, .admin-dashboard td {
+
+.admin-dashboard th,
+.admin-dashboard td {
     padding: 1rem;
     text-align: left;
 }
+
 .admin-dashboard th {
     background: linear-gradient(45deg, #2c3e50, #34495e);
     color: white;
     font-weight: bold;
 }
+
 .admin-dashboard tr:nth-child(even) {
     background: #f3f3f3;
 }
+
 .admin-dashboard tr:hover {
     background: #ffe5d1;
 }
+
 .admin-dashboard td button {
     padding: 0.4rem 1rem;
     font-size: 0.95rem;
     border-radius: 20px;
     margin-right: 0.3rem;
 }
-@media (max-width: 900px) {
-    .admin-dashboard, .login-container {
-        padding: 1rem;
-    }
-    .admin-dashboard table, .admin-dashboard th, .admin-dashboard td {
-        font-size: 0.95rem;
-    }
+
+.form-container {
+    background: #fff;
+    max-width: 400px;
+    margin: 6rem auto 3rem auto;
+    padding: 2.5rem 2rem 2rem 2rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.form-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 6px;
+    color: #555;
+}
+
+input,
+select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background: linear-gradient(45deg, #ff6b35, #ff8c42);
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background: #218838;
 }
